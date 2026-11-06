@@ -79,7 +79,24 @@ git clone https://github.com/Binbin-miao/excelsior.git lean-adaptive-engineering
 
 ---
 
-## 五、 致谢
+## 五、 实盘 Token 使用情况
+
+不是 PPT 项目。以下是作者本机近 30 天的真实 Token 消耗（由 [WorkBuddy Switch](https://github.com/Binbin-miao/workbuddy-switch-binbinbin) v0.1.74 统计）：
+
+![Token 统计](assets/token-stats.png)
+
+| 指标 | 数值 |
+|:---|:---|
+| 近 30 天总 Token | **7B** |
+| 输入 Token | 6.9B |
+| 输出 Token | 30M |
+| 缓存命中率 | **92.6%** |
+
+> 缓存命中率 92.6% 是这个专家团的核心工程指标：稳定的系统提示词前缀 + 技能按需加载，避免每次对话重新灌一遍上下文，长期重度使用才跑得出这个数。
+
+---
+
+## 六、 致谢
 
 本项目建立在一批高质量开源工程体系的肩膀上，14 个上游项目的完整清单、许可证与对应技能映射见 **[NOTICE.md](NOTICE.md)**。
 
@@ -87,6 +104,6 @@ git clone https://github.com/Binbin-miao/excelsior.git lean-adaptive-engineering
 
 ---
 
-## 六、 许可证
+## 七、 许可证
 
 本项目原创的编排逻辑、提示词与文档以 [MIT](LICENSE) 授权；第三方素材版权归各自作者，按其原始许可证使用，详见 [NOTICE.md](NOTICE.md)。
