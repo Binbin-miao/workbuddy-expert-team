@@ -35,8 +35,8 @@
     "zh": "精益求精服务"
   },
   "displayDescription": {
-    "en": "Zero Bloat, Maximum Craftsmanship. 1 Lead (Tianshu) + 5 Specialists (Xuanji, Chengche, Fuguang, Linglong, Qiaoduo) with 46 built-in skills and autonomous multi-wave parallel orchestration.",
-    "zh": "零膨胀、高匠心（1主理官「天枢」+ 5专家「璇玑/澄澈/浮光/玲珑/巧夺」，内置46项技能）：听懂大白话自动规划、模型自主判断多Agent并发波次委派与双盲交叉验证、先报方案卡确认再开工、交付优雅代码与接线文档。"
+    "en": "1 Lead + 5 Specialists: plain language in, parallel dispatch out, plan card before any work. On first run, ask the AI to install the required skills.",
+    "zh": "1主理官+5专家，听懂大白话即并发调度、先报方案卡再开工。首次使用请让AI自装所需技能。"
   },
   "avatar": "avatars/team.png",
   "categoryId": "02-Engineering",
