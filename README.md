@@ -9,9 +9,11 @@
 如果你正在使用 WorkBuddy，可以通过下方按钮或复制分享链接快速将本插件添加到你的环境中：
 
 - **一键使用 / 添加插件**：  
-  [![使用插件](https://img.shields.io/badge/WorkBuddy-一键使用插件-blue?style=for-the-badge&logo=codebuddy)](https://workbuddy.cn/plugin/share/v1?owner=Binbin-miao&repo=workbuddy-expert-team&branch=main)
+  [![使用插件](https://img.shields.io/badge/WorkBuddy-一键使用专家团-blue?style=for-the-badge&logo=codebuddy)](https://www.workbuddy.cn/work/launch/?sharecode=Y6QAJ8WUvUa4koEmjmaLdOJcFJhLoAuN66YQ8t_hGwBo7umTh-Jyl7zT9eex2VbI&expertname=%E7%B2%BE%E7%9B%8A%E6%B1%82%E7%B2%BE%E6%9C%8D%E5%8A%A1&buddy_type=workbuddy)
 - **分享链接**：  
-  `https://workbuddy.cn/plugin/share/v1?owner=Binbin-miao&repo=workbuddy-expert-team&branch=main`
+  `https://www.workbuddy.cn/work/launch/?sharecode=Y6QAJ8WUvUa4koEmjmaLdOJcFJhLoAuN66YQ8t_hGwBo7umTh-Jyl7zT9eex2VbI&expertname=%E7%B2%BE%E7%9B%8A%E6%B1%82%E7%B2%BE%E6%9C%8D%E5%8A%A1&buddy_type=workbuddy`
+
+> **【首次使用请让 AI 自行安装所需技能】** 导入后首次对话，直接说一句「请先检查并自行安装你需要的技能」，专家团会补齐 46 项内置技能后再开工。
 
 ---
 
