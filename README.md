@@ -1,4 +1,6 @@
-# 精益求精服务
+# WorkBuddy 专家团 · 精益求精服务（Excelsior）
+
+**WorkBuddy 专家团 / WorkBuddy Expert Team** — 1 位主理官 + 5 位专职专家 + 45 项内置技能，融合 14 个 GitHub 开源工程框架，100% 跨语言通用的 WorkBuddy 专家包。
 
 **Excelsior (v5.0 Universal Edition — 1 Lead + 5 Specialists, 45 Built-in Skills)**
 
@@ -9,6 +11,8 @@
 > **一键使用**：用 WorkBuddy 创建了一个专家团「精益求精服务」——融合 10 大 GitHub 开源工程框架（内置 45 项技能，100% 跨语言通用）：听懂大白话自动规划、开工前先报《方案卡》确认、强制检索优秀开源项目参考、六段式元提示词委派、写出优雅代码、交付杂志级接线文档。
 >
 > 👉 [点击一键复制使用](https://www.workbuddy.cn/work/launch/?sharecode=mG8J8WmThE1btKIXR1sUvN4tlP_5oTQH4XWrBow0G6nBwF5340SjlBX05MF0zyuT&expertname=%E7%B2%BE%E7%9B%8A%E6%B1%82%E7%B2%BE%E6%9C%8D%E5%8A%A1&buddy_type=workbuddy)
+
+`WorkBuddy 专家团` · `WorkBuddy 专家包` · `WorkBuddy 插件` · `AI 编程专家团` · `多 Agent 协作` · `提示词工程` · `Claude Skills` · `SKILL.md` · `一键导入专家`
 
 ## 一、 融合的十大 GitHub 开源工程体系（100% 跨语言、跨项目通用）
 
