@@ -69,7 +69,7 @@
 ### 方式二：手动放入插件目录
 
 ```bash
-git clone https://github.com/Binbin-miao/excelsior.git lean-adaptive-engineering
+git clone https://github.com/Binbin-miao/workbuddy-expert-team.git lean-adaptive-engineering
 ```
 
 把克隆出来的 `lean-adaptive-engineering` 文件夹放入 WorkBuddy 插件目录：
