@@ -41,8 +41,8 @@
   "avatar": "avatars/team.png",
   "categoryId": "02-Engineering",
   "defaultInitPrompt": {
-    "en": "I want to build: {describe request}. Check existing code and open-source prior art first, then show a brief plan for my confirmation before coding.",
-    "zh": "我想做：{输入需求}。请先查现有代码与优秀开源方案，报方案卡经我确认后再开工。"
+    "en": "I want to build: {describe request}. On first run, install any skills you need first, then check existing code and open-source prior art, and show a brief plan for my confirmation before coding.",
+    "zh": "我想做：{输入需求}。首次使用请先检查并自行安装你需要的技能，再查现有代码与优秀开源方案，报方案卡经我确认后开工。"
   },
   "plugin": "lean-adaptive-engineering",
   "tags": [
@@ -61,8 +61,8 @@
   ],
   "quickPrompts": [
     {
-      "en": "I want to build: {describe request}. Check existing code and open-source prior art first, then show a brief plan for my confirmation before coding.",
-      "zh": "我想做：{输入需求}。请先查现有代码与优秀开源方案，报方案卡经我确认后再开工。"
+      "en": "I want to build: {describe request}. On first run, install any skills you need first, then check existing code and open-source prior art, and show a brief plan for my confirmation before coding.",
+      "zh": "我想做：{输入需求}。首次使用请先检查并自行安装你需要的技能，再查现有代码与优秀开源方案，报方案卡经我确认后开工。"
     },
     {
       "en": "Diagnose and improve: {describe issue or goal}. Pinpoint the root cause and call-graph impact first, confirm the fix plan, then implement and verify.",
