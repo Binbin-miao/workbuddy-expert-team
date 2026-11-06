@@ -1,0 +1,155 @@
+{
+  "name": "lean-adaptive-engineering",
+  "version": "5.0.0",
+  "description": "Universal, zero-dependency full-stack engineering team v5.0 (1 Lead + 5 Specialists, 45 built-in skills). Synthesizes 10 top GitHub open-source agentic engineering frameworks: Matt Pocock, Ponytail, Impeccable, Scrapling, Ruflo (Claude Flow), GSD (Get Shit Done), BMAD-Method, MetaGPT, ECC, and GitHub Spec-Kit (plus Trail of Bits, Superpowers, Vercel, Supabase, Anthropic & Karpathy). Features Plain-Language Intent Decoding, Pre-Work Mission Proposal Confirmation, Open-Source Prior-Art Research, 6-Block Meta-Prompt Delegation, Code Elegance Constitution, and Magazine-Grade Delivery & Wiring Docs.",
+  "author": {
+    "name": "Lean & Adaptive Engineering Community"
+  },
+  "agents": [
+    "./agents/lean-adaptive-engineering-team-lead.md",
+    "./agents/domain-grilling-architect.md",
+    "./agents/ponytail-simplicity-gatekeeper.md",
+    "./agents/scrapling-web-intelligence.md",
+    "./agents/impeccable-design-director.md",
+    "./agents/deep-module-tdd-engineer.md"
+  ],
+  "expertType": "team",
+  "agentName": "lean-adaptive-engineering-team-lead",
+  "teamInfo": {
+    "leadAgent": "lean-adaptive-engineering-team-lead",
+    "memberAgents": [
+      "domain-grilling-architect",
+      "ponytail-simplicity-gatekeeper",
+      "scrapling-web-intelligence",
+      "impeccable-design-director",
+      "deep-module-tdd-engineer"
+    ]
+  },
+  "displayName": {
+    "en": "Excelsior",
+    "zh": "精益求精服务"
+  },
+  "profession": {
+    "en": "Excelsior",
+    "zh": "精益求精服务"
+  },
+  "displayDescription": {
+    "en": "100% Universal 1+5 Engineering Team powered by 10 open-source frameworks (45 built-in skills): Plain-Language Intent Decoding, Ask-Before-Coding Mission Proposal Gate, Open-Source Prior-Art Search, 6-Block Meta-Prompting, Code Elegance, and Wiring Docs.",
+    "zh": "融合10大GitHub开源工程框架（内置45项技能，100%跨语言通用）：听懂大白话自动规划、开工前先报《方案卡》确认、强制检索优秀开源项目参考、六段式元提示词委派、写出优雅代码、交付杂志级接线文档。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "{Describe your goal in plain language; I will research prior art, present a concise Mission Proposal Card for your confirmation, and orchestrate the specialists}",
+    "zh": "{直接用大白话描述你的需求；我会先查证代码与现成开源方案，向你汇报《任务理解与开工方案卡》，经你确认后再调度专家交付优雅代码与文档}"
+  },
+  "plugin": "lean-adaptive-engineering",
+  "tags": [
+    {
+      "en": "Multi-Agent Checks",
+      "zh": "多Agent制衡"
+    },
+    {
+      "en": "Lean Engineering",
+      "zh": "精益研发"
+    },
+    {
+      "en": "Adaptive Engineering",
+      "zh": "自适应工程"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "{Describe your goal in plain language; I will research prior art, present a concise Mission Proposal Card for your confirmation, and orchestrate the specialists}",
+      "zh": "我想做：{输入需求}。请先查现有代码与优秀开源方案，报方案卡经我确认后再开工。"
+    },
+    {
+      "en": "Review the current changes for correctness, security blast radius, call-graph completeness, and code elegance (>80% confidence issues only).",
+      "zh": "帮我排查并优化：{输入问题或目标}。请先定位根因与全调用链影响，确认方案后再修复并验证。"
+    },
+    {
+      "en": "Search GitHub and official docs for mature open-source solutions and native components for this feature before designing our architecture.",
+      "zh": "在动手设计前，先联网检索 GitHub 同类优秀开源项目、官方文档与框架原生组件，输出四维对标方案卡供我拍板。"
+    }
+  ],
+  "members": [
+    {
+      "id": "lean-adaptive-engineering-team-lead",
+      "displayName": {
+        "en": "Cheng",
+        "zh": "程致远"
+      },
+      "profession": {
+        "en": "Chief Orchestrator, Plain-Language Decoder & Meta-Prompt Architect",
+        "zh": "首席主理官（大白话意图解码 / 开工方案卡确认 / 六段式元提示词调度）"
+      },
+      "avatar": "avatars/lean-adaptive-engineering-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "domain-grilling-architect",
+      "displayName": {
+        "en": "Gu",
+        "zh": "顾明析"
+      },
+      "profession": {
+        "en": "Call-Graph Domain Modeling, Spec & Architecture Wiring Specialist",
+        "zh": "全调用链领域建模、状态机不变量与架构接线文档专家"
+      },
+      "avatar": "avatars/domain-grilling-architect.png",
+      "role": "member"
+    },
+    {
+      "id": "ponytail-simplicity-gatekeeper",
+      "displayName": {
+        "en": "Jian",
+        "zh": "简力行"
+      },
+      "profession": {
+        "en": "Simplicity, Code Elegance & Differential Security Gatekeeper",
+        "zh": "Ponytail 极简主义、代码优雅度与差分安全审查官"
+      },
+      "avatar": "avatars/ponytail-simplicity-gatekeeper.png",
+      "role": "member"
+    },
+    {
+      "id": "scrapling-web-intelligence",
+      "displayName": {
+        "en": "Ye",
+        "zh": "叶探真"
+      },
+      "profession": {
+        "en": "Open-Source Prior-Art, Product Benchmarking & Web Intelligence Specialist",
+        "zh": "开源优秀项目对标检索、外部源码深潜与Scrapling情报专家"
+      },
+      "avatar": "avatars/scrapling-web-intelligence.png",
+      "role": "member"
+    },
+    {
+      "id": "impeccable-design-director",
+      "displayName": {
+        "en": "Yan",
+        "zh": "颜至善"
+      },
+      "profession": {
+        "en": "Impeccable UI/UX, Frontend Performance & Browser Verification Director",
+        "zh": "Impeccable 审美总监、前端架构性能与真实浏览器验证专家"
+      },
+      "avatar": "avatars/impeccable-design-director.png",
+      "role": "member"
+    },
+    {
+      "id": "deep-module-tdd-engineer",
+      "displayName": {
+        "en": "Qin",
+        "zh": "秦笃行"
+      },
+      "profession": {
+        "en": "Deep-Module TDD, Code Elegance & Bug Diagnostics Engineer",
+        "zh": "TDD 深模块研发、优雅代码工艺与科学缺陷诊断专家"
+      },
+      "avatar": "avatars/deep-module-tdd-engineer.png",
+      "role": "member"
+    }
+  ]
+}
