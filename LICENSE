@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE: The MIT license above covers the original orchestration logic, prompts,
-and documentation authored in this repository. Third-party skill materials
-bundled under `skills/` remain the property of their respective authors and
-are used under their own licenses — see NOTICE.md for the full attribution
-matrix. Files whose upstream license is more restrictive than MIT (notably
-CC-BY-SA-4.0 from trailofbits/skills) remain bound by their original terms.
