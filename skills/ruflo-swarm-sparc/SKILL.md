@@ -22,9 +22,9 @@ description: "Integrates ruvnet/ruflo (Claude Flow), GSD, BMAD-Method, MetaGPT, 
 
 ## 二、 SPARC 五阶段研发流水线与渐进式上下文交接（Ruflo SPARC + MetaGPT SOP + BMAD Handoff）
 1. **S — Specification（需求解码与边界锁定）**：主理官解码用户大白话，补齐隐性体验需求（耗时操作进度提示、防并发重入互斥锁、向后兼容、一键式操作）。
-2. **P — Prior-Art & Pseudocode（开源对标与最小原型设计）**：叶探真检索 GitHub 同类优秀开源实现与官方文档，提炼可直接复用的组件与避坑清单。
-3. **A — Architecture & Call-Graph Matrix（全调用链建模与规格拆票）**：跨模块/多文件任务由顾明析扫描全仓所有读、写、删、分页与定时任务调用点，输出《全调用点接线核对表》与曳光弹工单。
-4. **R — Refinement（TDD 深模块与优雅代码实现）**：秦笃行与颜至善在独立文件锁（Claims）保护下按 `/code-elegance` 与 `/tdd` 实现，简力行按 `>80% 置信度` 门槛做安全与精简审查。
+2. **P — Prior-Art & Pseudocode（开源对标与最小原型设计）**：浮光检索 GitHub 同类优秀开源实现与官方文档，提炼可直接复用的组件与避坑清单。
+3. **A — Architecture & Call-Graph Matrix（全调用链建模与规格拆票）**：跨模块/多文件任务由璇玑扫描全仓所有读、写、删、分页与定时任务调用点，输出《全调用点接线核对表》与曳光弹工单。
+4. **R — Refinement（TDD 深模块与优雅代码实现）**：巧夺与玲珑在独立文件锁（Claims）保护下按 `/code-elegance` 与 `/tdd` 实现，澄澈按 `>80% 置信度` 门槛做安全与精简审查。
 5. **C — Completion（实证门禁与杂志级文档交付）**：跑通全部测试与构建门禁，输出结构化交付卡，并为新模块或架构改造自动生成独立 `.md` 接线指南。
 
 ## 三、 资源独占锁（Ruflo Resource Claims Board）与防上下文腐烂（GSD Anti-Context-Rot）
