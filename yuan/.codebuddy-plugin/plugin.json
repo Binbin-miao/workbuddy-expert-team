@@ -1,0 +1,156 @@
+{
+  "name": "yuan",
+  "version": "7.2.0",
+  "description": "Yuan (源) v7.2 — Enforces WorkBuddy built-in AskUserQuestion popup selection, Matt Pocock's Grill-Me -> To-Spec -> To-Tickets -> Implement-Spec -> Differential-Review pipeline, 4-dimension cognitive mapping, 3-Gear adaptive dispatch, mandatory post-edit Spec-vs-Diff review, and 4-step Git patch/prod/squash discipline.",
+  "author": {
+    "name": "Lean & Adaptive Engineering Community"
+  },
+  "agents": [
+    "./agents/yuan-team-lead.md",
+    "./agents/domain-grilling-architect.md",
+    "./agents/ponytail-simplicity-gatekeeper.md",
+    "./agents/scrapling-web-intelligence.md",
+    "./agents/impeccable-design-director.md",
+    "./agents/deep-module-tdd-engineer.md"
+  ],
+  "expertType": "team",
+  "agentName": "yuan-team-lead",
+  "teamInfo": {
+    "leadAgent": "yuan-team-lead",
+    "memberAgents": [
+      "domain-grilling-architect",
+      "ponytail-simplicity-gatekeeper",
+      "scrapling-web-intelligence",
+      "impeccable-design-director",
+      "deep-module-tdd-engineer"
+    ]
+  },
+  "displayName": {
+    "en": "Yuan",
+    "zh": "源",
+    "zh-CN": "源"
+  },
+  "profession": {
+    "en": "Yuan",
+    "zh": "源"
+  },
+  "displayDescription": {
+    "en": "Grill-Me alignment, 4-dimension plain-language mapping, 3-gear adaptive dispatch and mandatory post-edit review: 1 lead plus 5 specialists covering architecture, simplicity gatekeeping, prior-art research, UI craft and TDD implementation.",
+    "zh": "强制内置弹窗选择(AskUserQuestion) → 拍板后强制落盘 Spec/Tickets 单一事实源 → 三档并发按规施工 → 改后对照 Spec 独立复审：天枢率五位专家全流程守护。"
+  },
+  "avatar": "avatars/team.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "en": "I want to build: {describe goal}. Pre-fetch local code and high-star GitHub prior art silently, then present a 4-dimension comparison and 1-3 gear choice for my sign-off before coding.",
+    "zh": "我想做：{输入需求}。请先静默检索本地代码与高星开源方案，按四维对比与 1~3 档强度供我拍板后再写代码。"
+  },
+  "plugin": "yuan",
+  "tags": [
+    {
+      "en": "Grill-Me Protocol",
+      "zh": "前置审讯收敛"
+    },
+    {
+      "en": "Adaptive Swarm",
+      "zh": "按需多档并发"
+    },
+    {
+      "en": "Mandatory Review",
+      "zh": "凡改必审"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I want to build: {describe goal}. Pre-fetch local code and high-star GitHub prior art silently, then present a 4-dimension comparison and 1-3 gear choice for my sign-off before coding.",
+      "zh": "我想做：{输入需求}。请先静默检索本地代码与高星开源方案，按四维对比与 1~3 档强度供我拍板后再写代码。"
+    },
+    {
+      "en": "Diagnose and fix: {describe issue}. Silently trace the full call graph and root cause first, confirm the fix option with me, then implement, verify via subagent review, and archive a .patch.",
+      "zh": "排查并修复：{输入问题}。先静默定位全调用链根因，找我拍板方案后修改，并强制调用子代理复审与归档 patch。"
+    },
+    {
+      "en": "Audit current changes (>80% confidence): dispatch Chengche and Qiaoduo to independently review git diff for missed callers, concurrency/resource leaks, and code elegance before squash/PR.",
+      "zh": "独立审查当前改动：调用澄澈与巧夺按 >80% 置信度核查全调用链遗漏、并发安全爆炸半径与代码优雅度。"
+    }
+  ],
+  "members": [
+    {
+      "id": "yuan-team-lead",
+      "displayName": {
+        "en": "Tianshu",
+        "zh": "天枢"
+      },
+      "profession": {
+        "en": "Core Lead",
+        "zh": "核心"
+      },
+      "avatar": "avatars/yuan-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "domain-grilling-architect",
+      "displayName": {
+        "en": "Xuanji",
+        "zh": "璇玑"
+      },
+      "profession": {
+        "en": "Project Architecture Analyst",
+        "zh": "项目架构分析专家"
+      },
+      "avatar": "avatars/domain-grilling-architect.png",
+      "role": "member"
+    },
+    {
+      "id": "ponytail-simplicity-gatekeeper",
+      "displayName": {
+        "en": "Chengche",
+        "zh": "澄澈"
+      },
+      "profession": {
+        "en": "Minimalist Code Specialist",
+        "zh": "极简优雅代码专家"
+      },
+      "avatar": "avatars/ponytail-simplicity-gatekeeper.png",
+      "role": "member"
+    },
+    {
+      "id": "scrapling-web-intelligence",
+      "displayName": {
+        "en": "Fuguang",
+        "zh": "浮光"
+      },
+      "profession": {
+        "en": "Prior-Art Researcher",
+        "zh": "资料检索专家"
+      },
+      "avatar": "avatars/scrapling-web-intelligence.png",
+      "role": "member"
+    },
+    {
+      "id": "impeccable-design-director",
+      "displayName": {
+        "en": "Linglong",
+        "zh": "玲珑"
+      },
+      "profession": {
+        "en": "Design Director",
+        "zh": "审美总监"
+      },
+      "avatar": "avatars/impeccable-design-director.png",
+      "role": "member"
+    },
+    {
+      "id": "deep-module-tdd-engineer",
+      "displayName": {
+        "en": "Qiaoduo",
+        "zh": "巧夺"
+      },
+      "profession": {
+        "en": "Pre-Delivery Reviewer",
+        "zh": "交付前审查专家"
+      },
+      "avatar": "avatars/deep-module-tdd-engineer.png",
+      "role": "member"
+    }
+  ]
+}

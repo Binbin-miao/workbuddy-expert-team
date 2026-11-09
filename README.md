@@ -122,6 +122,31 @@ flowchart TD
    python install_skills.py
    ```
 
+## 🌱 同仓库第二套：源（Yuan）v7.2
+
+本仓库 `yuan/` 目录下并存新一代专家团 **「源」v7.2** —— 与 Excelsior 同一班底（主理官「天枢」+ 五位专家「璇玑 / 澄澈 / 浮光 / 玲珑 / 巧夺」）的机制升级版，两者任选其一使用。
+
+- **一键使用**：
+  [![使用插件](https://img.shields.io/badge/WorkBuddy-一键使用源v7.2-blue?style=for-the-badge&logo=codebuddy)](https://www.workbuddy.cn/work/launch/?sharecode=vGryU9W3YxGE-B3qEpGZ03LBVl5CmgQumEk-fD_FLXTjnILcZ_RXNv_VfyrA8RDJ&expertname=%E6%BA%90&buddy_type=workbuddy)
+- **分享链接**：
+  `https://www.workbuddy.cn/work/launch/?sharecode=vGryU9W3YxGE-B3qEpGZ03LBVl5CmgQumEk-fD_FLXTjnILcZ_RXNv_VfyrA8RDJ&expertname=%E6%BA%90&buddy_type=workbuddy`
+
+**v7.2 四条硬机制**
+
+1. **四态强制流转状态机**：`审讯对齐态 → Spec 落盘态 → 编码施工态 → 对照复审态`，严禁跳步。
+2. **强制弹窗选择**：所有决策点必须走内置 `AskUserQuestion` 弹窗，严禁纯文本裸问；用户不拍板不写码。
+3. **拍板即落盘 Spec / Tickets**：`/to-spec` → `/to-tickets` 产出 `SPEC.md` 与票单作为单一事实源，后续改动一律对照它做增量。
+4. **改后对照 Spec 独立复审**：独立子代理不只看 diff 好不好看，还要核对「改动是否偏离 Spec」。
+
+**安装位置**：
+
+- Windows: `%USERPROFILE%\.workbuddy\plugins\marketplaces\my-experts\plugins\yuan`
+- macOS / Linux: `~/.workbuddy/plugins/marketplaces/my-experts/plugins/yuan`
+
+> 「源」按设计**不携带** `skills/` 目录，复用本机 `~/.workbuddy/skills/`。本仓库根目录的 46 项技能已覆盖它引用的全部条目，建议先运行 `python install_skills.py` 再使用。
+
+---
+
 ## 📜 许可证与开源致谢 (License & Notice)
 
 本项目基于 [MIT License](LICENSE) 开源，相关上游开源工程方法论致谢详见 [NOTICE.md](NOTICE.md)。
